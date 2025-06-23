@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -47,16 +46,16 @@
         .logo {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 10px;
         }
         
         .logo img {
-            height: 80px;
+            height: 40px;
         }
         
         .logo h1 {
             color: white;
-            font-size: 2.8rem;
+            font-size: 1.8rem;
             background: linear-gradient(to right, #9d4edd, #6a00ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -155,7 +154,7 @@
             margin-bottom: 2rem;
             position: relative;
 
-> :
+
 display: inline-block;
         }
         
@@ -323,7 +322,7 @@ display: inline-block;
                 gap: 1rem;
             }
 
-> :
+
 nav ul {
                 gap: 1rem;
             }
@@ -348,15 +347,16 @@ nav ul {
     <header>
         <div class="header-container">
             <div class="logo">
-                <img src="https://avatars.mds.yandex.net/get-maps-adv-crm/11387709/2a0000018c85a94d04de24e70f6e005a3a18/landing_background_x2" alt="CyberZone Logo">
+                <img src="https://via.placeholder.com/40x40/6a00ff/ffffff?text=CZ" alt="CyberZone Logo">
                 <h1>CyberZone</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="#" class="active">Главная</a></li>
-                    <li><a href="https://vitos1212.github.io/my-cyberzone-a-.github.io/">Новости</a></li>
-                    <li><a href="https://vitos1212.github.io/my-cyberzone-b-.github.io/">Турниры</a></li>
-                                        
+                    <li><a href="https://vitos1212.github-a-.io/my-cyberzone.github.io/">Новости</a></li>
+                    <li><a href="https://vitos1212.github-b-.io/my-cyberzone.github.io/">Турниры</a></li>
+                    
+                    
                 </ul>
             </nav>
         </div>
@@ -367,7 +367,7 @@ nav ul {
         <div class="hero-content">
             <h2>Все о киберспорте в одном месте</h2>
             <p>Последние новости, расписание турниров, аналитика и эксклюзивные интервью с профессиональными игроками.</p>
-            <a href="https://vitos1212.github.io/my-cyberzone-a-.github.io/" class="btn">Читать новости</a>
+            <a href="https://vitos1212.github-a-.io/my-cyberzone.github.io/" class="btn">Читать новости</a>
         </div>
     </section>
     
@@ -376,30 +376,36 @@ nav ul {
         <!-- Последние новости -->
         <section class="latest-news">
             <h2 class="section-title">Последние новости</h2>
-
-            <!-- Новость 1 -->
-        <article class="news-card">
-            <img src="https://avatars.mds.yandex.net/i?id=77f51dcb086c1ed9d27f56f7214156c4cac93d8b-5177173-images-thumbs&n=13" alt="Dota 2" class="news-image">
-            <div class="news-content">
-            <span class="news-category">Dota 2</span>
-                <h3 class="news-title">LIVE Матчи PGL Wallachia </h3>
-                <p class="news-date">22 июня 2025</p>
-                <p class="news-excerpt">Team Spirit 0:1 NAVII;NIGMA 1:0 VIRTUS.PRO</p>
-            </div>
-        </article>
-
-        <!-- Новость 2 -->
-        <article class="news-card">
-            <img src="https://avatars.mds.yandex.net/i?id=74aeb153eeef5547d3f154aacd4b1b2c032ff189-4256476-images-thumbs&n=13" alt="CS2" class="news-image">
-            <div class="news-content">
-            <span class="news-category">Dota 2</span>
-                <h3 class="news-title">Результаты матчей Dota 2 на турнире PGL Wallachia.</h3><p class="news-date">23 июня 2025</p>
-                <p class="news-excerpt">МАТЧИ:Aurora 0:2 Gladiators;Avulus 0:2 Heroic;Liquid 2:0 OG;Edge 0:2 Tundra Esports;AG Global 2:0 Wildcard;Xtreme 0:2 BetBoom.
-                </p>
-            </div>
-           </article>
+            <div class="news-grid">
+                <!-- Новость 1 -->
+                <article class="news-card">
+                    <img src="https://avatars.mds.yandex.net/i?id=77f51dcb086c1ed9d27f56f7214156c4cac93d8b-5177173-images-thumbs&n=13" alt="Dota 2 Турнир" class="news-img">
+                    <div class="news-content">
+                        <span class="news-category">CS2</span>
+                        <h3 class="news-title">LIVE Матчи PGL Wallachia</h3>
+                        <p class="news-excerpt">Team Spirit 0:1 NAVII;NIGMA 1:0 VIRTUS.PRO</p>
+                        <div class="news-meta">
+                            <span>23 июня 2025</span>
+                            
+                        </div>
+                    </div>
+                </article>
                 
-                <!-- Новость 3 -->
+                <!-- Новость 2 -->
+                <article class="news-card">
+                    <img src="https://avatars.mds.yandex.net/i?id=74aeb153eeef5547d3f154aacd4b1b2c032ff189-4256476-images-thumbs&n=13" alt="Dota 2" class="news-img">
+                    <div class="news-content">
+                        <span class="news-category">Dota 2</span>
+                        <h3 class="news-title">Результаты матчей Dota 2 на турнире PGL Wallachia.</h3>
+                        <p class="news-excerpt">МАТЧИ:Aurora 0:2 Gladiators;Avulus 0:2 Heroic;Liquid 2:0 OG;Edge 0:2 Tundra Esports;AG Global 2:0 Wildcard;Xtreme 0:2 BetBoom.</p>
+                        <div class="news-meta">
+                            <span>23 июня 2025</span>
+                            
+                        </div>
+                    </div>
+                </article>
+                
+                 <!-- Новость 3 -->
                 <article class="news-card">
                     <img src="https://cdn.bg.ru/bg.ru/post_image-image/s1oei_X1QhTIxym74u70XA.jpg" alt="Dota 2" class="news-img">
                     <div class="news-content">
@@ -415,10 +421,39 @@ prblms (Алексей Паршуков)</p>
                             
                         </div>
                     </div>
-                    </article>
-                </div>
-            </section>
+
+
+</article>
+            </div>
+            <div style="text-align: center;">
+                <a href="https://vitos1212.github-a-.io/my-cyberzone.github.io/" class="btn">Все новости</a>
+            </div>
+        </section>
+        
+        
+    
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="privacy.html">Политика конфиденциальности</a>
+            <a href="advert.html">Реклама</a>
         </div>
-    </body>
-    </html>
+        
+        <div class="social-links">
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-twitch"></i></a>
+        </div>
+        
+        <p class="copyright">© 2025 CyberZone. Все права защищены.</p>
+    </footer>
+    
+    <!-- Иконки Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</body>
+</html>
 
